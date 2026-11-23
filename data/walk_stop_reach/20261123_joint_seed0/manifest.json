@@ -1,0 +1,162 @@
+{
+  "source": "B1 modular A1+A2 policy on independent training scenarios",
+  "checkpoints": {
+    "walk": {
+      "path": "artifacts/walk_stop/20261120_bc_seed0/policy.pt",
+      "sha256": "0fffab77715d8a447906ed10bf1f3c6f27d9d2dccb0d5872cf341bfdd22445a1"
+    },
+    "arm": {
+      "path": "artifacts/arm_reach/20261123_arm_bc_seed0/policy.pt",
+      "sha256": "0d485fee184723f43a5ed7102362289c0f1d3ef3ae4412199c04f97bfbdee40c"
+    }
+  },
+  "fps": 50,
+  "joint_names": [
+    "FL_hip_joint",
+    "FL_thigh_joint",
+    "FL_calf_joint",
+    "FR_hip_joint",
+    "FR_thigh_joint",
+    "FR_calf_joint",
+    "RL_hip_joint",
+    "RL_thigh_joint",
+    "RL_calf_joint",
+    "RR_hip_joint",
+    "RR_thigh_joint",
+    "RR_calf_joint",
+    "joint1",
+    "joint2",
+    "joint3",
+    "joint4",
+    "joint5",
+    "joint6"
+  ],
+  "action": "18 absolute joint PD targets in rad",
+  "model_license": "vendor/go2_piper/LICENSE",
+  "train": [
+    {
+      "name": "d200_0",
+      "distance_m": 0.2,
+      "offset_m": [
+        0.045,
+        0.025,
+        0.0
+      ],
+      "exact_physical_replay": true
+    },
+    {
+      "name": "d200_1",
+      "distance_m": 0.2,
+      "offset_m": [
+        0.05,
+        -0.04,
+        0.0
+      ],
+      "exact_physical_replay": true
+    },
+    {
+      "name": "d220_0",
+      "distance_m": 0.22,
+      "offset_m": [
+        0.05,
+        0.04,
+        0.0
+      ],
+      "exact_physical_replay": true
+    },
+    {
+      "name": "d220_1",
+      "distance_m": 0.22,
+      "offset_m": [
+        0.065,
+        -0.05,
+        0.0
+      ],
+      "exact_physical_replay": true
+    },
+    {
+      "name": "d240_0",
+      "distance_m": 0.24,
+      "offset_m": [
+        0.065,
+        0.05,
+        0.0
+      ],
+      "exact_physical_replay": true
+    },
+    {
+      "name": "d240_1",
+      "distance_m": 0.24,
+      "offset_m": [
+        0.045,
+        -0.025,
+        0.0
+      ],
+      "exact_physical_replay": true
+    },
+    {
+      "name": "d260_0",
+      "distance_m": 0.26,
+      "offset_m": [
+        0.045,
+        0.025,
+        0.0
+      ],
+      "exact_physical_replay": true
+    },
+    {
+      "name": "d260_1",
+      "distance_m": 0.26,
+      "offset_m": [
+        0.05,
+        -0.04,
+        0.0
+      ],
+      "exact_physical_replay": true
+    },
+    {
+      "name": "d280_0",
+      "distance_m": 0.28,
+      "offset_m": [
+        0.05,
+        0.04,
+        0.0
+      ],
+      "exact_physical_replay": true
+    },
+    {
+      "name": "d280_1",
+      "distance_m": 0.28,
+      "offset_m": [
+        0.065,
+        -0.05,
+        0.0
+      ],
+      "exact_physical_replay": true
+    },
+    {
+      "name": "d300_0",
+      "distance_m": 0.3,
+      "offset_m": [
+        0.065,
+        0.05,
+        0.0
+      ],
+      "exact_physical_replay": true
+    },
+    {
+      "name": "d300_1",
+      "distance_m": 0.3,
+      "offset_m": [
+        0.045,
+        -0.025,
+        0.0
+      ],
+      "exact_physical_replay": true
+    }
+  ],
+  "evaluation": [
+    "offset_short",
+    "offset_long"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "walk_run": "20261120_bc_seed0",
+  "arm_run": "20261123_arm_bc_seed0",
+  "ready_tip_from_nominal_dock_local_m": [0.070, 0.0, 0.9555],
+  "development_offset_m": [0.050, 0.040, 0.0],
+  "holdout_offsets_m": [[0.055, 0.032, 0.0], [0.062, -0.034, 0.0]],
+  "leg_handoff_s": 1.2,
+  "prepare_arm_s": 2.0,
+  "ready_hold_s": 0.6,
+  "restow_s": 2.0,
+  "stow_hold_s": 0.6,
+  "reach_error_max_m": 0.025
+}

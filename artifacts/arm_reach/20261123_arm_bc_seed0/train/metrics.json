@@ -1,0 +1,302 @@
+[
+  {
+    "clip": "reach_00",
+    "source": "artifacts/reach_lr_20261119/train_data/calibrated/reach_00.npz",
+    "offset_local_m": [
+      0.04500041558029529,
+      0.024999251940822476,
+      0.0
+    ],
+    "goal_world_m": [
+      0.08998763764925295,
+      0.02504819562282389,
+      0.9600149391619851
+    ],
+    "demo_replay": {
+      "steps_completed": 150,
+      "steps_expected": 150,
+      "terminated": false,
+      "direction_completion": 1.000000126073345,
+      "dwell_displacement_xyz_m": [
+        0.04488812675886849,
+        0.025094016121610253,
+        -2.922928306745223e-05
+      ],
+      "reference_dwell_displacement_xyz_m": [
+        0.044888123869895935,
+        0.025094013661146164,
+        -2.9201690267655067e-05
+      ],
+      "dwell_tip_tracking_error_m": 1.859405983744677e-08,
+      "reach_goal_error_m": 0.0009861642762781474,
+      "mean_tip_tracking_error_m": 1.7834972190361412e-08,
+      "peak_tip_excursion_m": 0.052866476958426244,
+      "reference_peak_tip_excursion_m": 0.05286647379398346,
+      "return_residual_m": 0.00849049652609313,
+      "max_tilt_deg": 2.4237189441589266,
+      "full_support_fraction": 1.0,
+      "nonfoot_ground_samples": 0,
+      "checks": {
+        "complete": true,
+        "direction": true,
+        "dwell_tracking": true,
+        "tilt": true,
+        "four_feet": true,
+        "no_body_ground": true
+      },
+      "passed": true,
+      "max_tip_replay_difference_m": 4.756485330473372e-08,
+      "max_pose_replay_difference": 8.650876437421573e-08
+    }
+  },
+  {
+    "clip": "reach_01",
+    "source": "artifacts/reach_lr_20261119/train_data/calibrated/reach_01.npz",
+    "offset_local_m": [
+      0.05000066493151221,
+      0.03999916882144734,
+      0.0
+    ],
+    "goal_world_m": [
+      0.09498763764925296,
+      0.040048195622823884,
+      0.9600149391619851
+    ],
+    "demo_replay": {
+      "steps_completed": 150,
+      "steps_expected": 150,
+      "terminated": false,
+      "direction_completion": 0.9999997618296804,
+      "dwell_displacement_xyz_m": [
+        0.04984190183544262,
+        0.04015363050776565,
+        -3.266567918798373e-05
+      ],
+      "reference_dwell_displacement_xyz_m": [
+        0.04984192177653313,
+        0.0401536300778389,
+        -3.2654173992341384e-05
+      ],
+      "dwell_tip_tracking_error_m": 3.0049771324420565e-08,
+      "reach_goal_error_m": 0.0009528941996911548,
+      "mean_tip_tracking_error_m": 2.17323562747894e-08,
+      "peak_tip_excursion_m": 0.06570337553785864,
+      "reference_peak_tip_excursion_m": 0.0657033771276474,
+      "return_residual_m": 0.009645445827206,
+      "max_tilt_deg": 2.421722272772426,
+      "full_support_fraction": 1.0,
+      "nonfoot_ground_samples": 0,
+      "checks": {
+        "complete": true,
+        "direction": true,
+        "dwell_tracking": true,
+        "tilt": true,
+        "four_feet": true,
+        "no_body_ground": true
+      },
+      "passed": true,
+      "max_tip_replay_difference_m": 4.721946223061679e-08,
+      "max_pose_replay_difference": 8.988830613176901e-08
+    }
+  },
+  {
+    "clip": "reach_02",
+    "source": "artifacts/reach_lr_20261119/train_data/calibrated/reach_02.npz",
+    "offset_local_m": [
+      0.06500083116404484,
+      0.04999891946815788,
+      0.0
+    ],
+    "goal_world_m": [
+      0.10998763764925296,
+      0.050048195622823886,
+      0.9600149391619851
+    ],
+    "demo_replay": {
+      "steps_completed": 150,
+      "steps_expected": 150,
+      "terminated": false,
+      "direction_completion": 0.9999998578665665,
+      "dwell_displacement_xyz_m": [
+        0.0629896439510876,
+        0.049685217603893925,
+        0.0007949105544875746
+      ],
+      "reference_dwell_displacement_xyz_m": [
+        0.06298965960741043,
+        0.049685221165418625,
+        0.0007949196151457727
+      ],
+      "dwell_tip_tracking_error_m": 2.5424060316907844e-08,
+      "reach_goal_error_m": 0.001226589559427669,
+      "mean_tip_tracking_error_m": 2.2640504933097088e-08,
+      "peak_tip_excursion_m": 0.08334815633846968,
+      "reference_peak_tip_excursion_m": 0.08334815502166748,
+      "return_residual_m": 0.010284930999965096,
+      "max_tilt_deg": 2.427491069766685,
+      "full_support_fraction": 1.0,
+      "nonfoot_ground_samples": 0,
+      "checks": {
+        "complete": true,
+        "direction": true,
+        "dwell_tracking": true,
+        "tilt": true,
+        "four_feet": true,
+        "no_body_ground": true
+      },
+      "passed": true,
+      "max_tip_replay_difference_m": 5.124205507064898e-08,
+      "max_pose_replay_difference": 1.0017326812494787e-07
+    }
+  },
+  {
+    "clip": "reach_03",
+    "source": "artifacts/reach_lr_20261119/train_data/calibrated/reach_03.npz",
+    "offset_local_m": [
+      0.04499958440726943,
+      -0.02500074805226904,
+      0.0
+    ],
+    "goal_world_m": [
+      0.08998763764925295,
+      -0.024951804377176114,
+      0.9600149391619851
+    ],
+    "demo_replay": {
+      "steps_completed": 150,
+      "steps_expected": 150,
+      "terminated": false,
+      "direction_completion": 0.999999677256196,
+      "dwell_displacement_xyz_m": [
+        0.04490499831951992,
+        -0.02509548615433479,
+        -3.616487788298091e-05
+      ],
+      "reference_dwell_displacement_xyz_m": [
+        0.04490501433610916,
+        -0.025095490738749504,
+        -3.615250898292288e-05
+      ],
+      "dwell_tip_tracking_error_m": 2.615672344378548e-08,
+      "reach_goal_error_m": 0.0010043887694052211,
+      "mean_tip_tracking_error_m": 2.1861055331618114e-08,
+      "peak_tip_excursion_m": 0.052879760034975534,
+      "reference_peak_tip_excursion_m": 0.05287976935505867,
+      "return_residual_m": 0.008476727033862036,
+      "max_tilt_deg": 2.4235829933798163,
+      "full_support_fraction": 1.0,
+      "nonfoot_ground_samples": 0,
+      "checks": {
+        "complete": true,
+        "direction": true,
+        "dwell_tracking": true,
+        "tilt": true,
+        "four_feet": true,
+        "no_body_ground": true
+      },
+      "passed": true,
+      "max_tip_replay_difference_m": 5.009157112845541e-08,
+      "max_pose_replay_difference": 8.925035799300929e-08
+    }
+  },
+  {
+    "clip": "reach_04",
+    "source": "artifacts/reach_lr_20261119/train_data/calibrated/reach_04.npz",
+    "offset_local_m": [
+      0.04999933505467082,
+      -0.040000831167499085,
+      0.0
+    ],
+    "goal_world_m": [
+      0.09498763764925296,
+      -0.03995180437717612,
+      0.9600149391619851
+    ],
+    "demo_replay": {
+      "steps_completed": 150,
+      "steps_expected": 150,
+      "terminated": false,
+      "direction_completion": 0.9999999935730325,
+      "dwell_displacement_xyz_m": [
+        0.04985918538847685,
+        -0.040155930589680186,
+        -4.063730112124908e-05
+      ],
+      "reference_dwell_displacement_xyz_m": [
+        0.0498591810464859,
+        -0.04015593230724335,
+        -4.0599934436613694e-05
+      ],
+      "dwell_tip_tracking_error_m": 1.7820119561334506e-08,
+      "reach_goal_error_m": 0.0009717946338536255,
+      "mean_tip_tracking_error_m": 2.0042299546869833e-08,
+      "peak_tip_excursion_m": 0.06568125168415924,
+      "reference_peak_tip_excursion_m": 0.06568124890327454,
+      "return_residual_m": 0.009625981154301003,
+      "max_tilt_deg": 2.4212154013017675,
+      "full_support_fraction": 1.0,
+      "nonfoot_ground_samples": 0,
+      "checks": {
+        "complete": true,
+        "direction": true,
+        "dwell_tracking": true,
+        "tilt": true,
+        "four_feet": true,
+        "no_body_ground": true
+      },
+      "passed": true,
+      "max_tip_replay_difference_m": 4.583300764107226e-08,
+      "max_pose_replay_difference": 8.19280594477334e-08
+    }
+  },
+  {
+    "clip": "reach_05",
+    "source": "artifacts/reach_lr_20261119/train_data/calibrated/reach_05.npz",
+    "offset_local_m": [
+      0.06499916881799311,
+      -0.05000108051802515,
+      0.0
+    ],
+    "goal_world_m": [
+      0.10998763764925296,
+      -0.04995180437717612,
+      0.9600149391619851
+    ],
+    "demo_replay": {
+      "steps_completed": 150,
+      "steps_expected": 150,
+      "terminated": false,
+      "direction_completion": 0.9999998353166228,
+      "dwell_displacement_xyz_m": [
+        0.06298526166778631,
+        -0.049683726265741184,
+        0.0007997347224718651
+      ],
+      "reference_dwell_displacement_xyz_m": [
+        0.06298527121543884,
+        -0.04968372732400894,
+        0.0007997659267857671
+      ],
+      "dwell_tip_tracking_error_m": 1.6613412626125845e-08,
+      "reach_goal_error_m": 0.0012274958167329186,
+      "mean_tip_tracking_error_m": 2.1123962320463003e-08,
+      "peak_tip_excursion_m": 0.0832902104576448,
+      "reference_peak_tip_excursion_m": 0.0832902118563652,
+      "return_residual_m": 0.010272285846848589,
+      "max_tilt_deg": 2.426853719215309,
+      "full_support_fraction": 1.0,
+      "nonfoot_ground_samples": 0,
+      "checks": {
+        "complete": true,
+        "direction": true,
+        "dwell_tracking": true,
+        "tilt": true,
+        "four_feet": true,
+        "no_body_ground": true
+      },
+      "passed": true,
+      "max_tip_replay_difference_m": 4.8056186341421005e-08,
+      "max_pose_replay_difference": 1.0380434445345088e-07
+    }
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "device": "cuda",
+  "clips": 12,
+  "updates": 2500,
+  "walk_frames": 9756,
+  "reach_frames": 1800,
+  "walk_rmse_rad": 1.7119307813118212e-05,
+  "reach_rmse_rad": 8.701198385097086e-05,
+  "wall_time_s": 5.834795270000001,
+  "gpu_peak_sample_mib": 906,
+  "torch_peak_allocated_mib": 29.74560546875
+}

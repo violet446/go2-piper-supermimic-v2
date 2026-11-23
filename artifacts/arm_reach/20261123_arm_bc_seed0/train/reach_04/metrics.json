@@ -1,0 +1,50 @@
+{
+  "clip": "reach_04",
+  "source": "artifacts/reach_lr_20261119/train_data/calibrated/reach_04.npz",
+  "offset_local_m": [
+    0.04999933505467082,
+    -0.040000831167499085,
+    0.0
+  ],
+  "goal_world_m": [
+    0.09498763764925296,
+    -0.03995180437717612,
+    0.9600149391619851
+  ],
+  "demo_replay": {
+    "steps_completed": 150,
+    "steps_expected": 150,
+    "terminated": false,
+    "direction_completion": 0.9999999935730325,
+    "dwell_displacement_xyz_m": [
+      0.04985918538847685,
+      -0.040155930589680186,
+      -4.063730112124908e-05
+    ],
+    "reference_dwell_displacement_xyz_m": [
+      0.0498591810464859,
+      -0.04015593230724335,
+      -4.0599934436613694e-05
+    ],
+    "dwell_tip_tracking_error_m": 1.7820119561334506e-08,
+    "reach_goal_error_m": 0.0009717946338536255,
+    "mean_tip_tracking_error_m": 2.0042299546869833e-08,
+    "peak_tip_excursion_m": 0.06568125168415924,
+    "reference_peak_tip_excursion_m": 0.06568124890327454,
+    "return_residual_m": 0.009625981154301003,
+    "max_tilt_deg": 2.4212154013017675,
+    "full_support_fraction": 1.0,
+    "nonfoot_ground_samples": 0,
+    "checks": {
+      "complete": true,
+      "direction": true,
+      "dwell_tracking": true,
+      "tilt": true,
+      "four_feet": true,
+      "no_body_ground": true
+    },
+    "passed": true,
+    "max_tip_replay_difference_m": 4.583300764107226e-08,
+    "max_pose_replay_difference": 8.19280594477334e-08
+  }
+}

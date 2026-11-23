@@ -1,0 +1,28 @@
+{
+  "train_distances_m": [0.20, 0.22, 0.24, 0.26, 0.28, 0.30],
+  "development": {"name": "dev_025", "distance": 0.25, "start_x": 0.0, "start_y": 0.0, "yaw_deg": 0.0},
+  "holdout": [
+    {"name": "offset_short", "distance": 0.215, "start_x": 0.11, "start_y": -0.07, "yaw_deg": 4.0},
+    {"name": "offset_long", "distance": 0.285, "start_x": -0.09, "start_y": 0.08, "yaw_deg": -5.0}
+  ],
+  "thresholds": {
+    "park_error_m": 0.05,
+    "heading_error_deg": 10.0,
+    "stop_speed_mps": 0.05,
+    "stop_window_s": 0.5,
+    "max_lateral_m": 0.10,
+    "max_tilt_deg": 15.0,
+    "fall_tilt_deg": 45.0,
+    "fall_height_m": 0.17,
+    "max_stow_error_rad": 0.20,
+    "max_contact_slip_p95_mps": 0.10,
+    "min_swing_clearance_m": 0.018
+  },
+  "seed": 0,
+  "perturbed_per_distance": 5,
+  "perturbation_std_rad": 0.024,
+  "batch_size": 512,
+  "updates": 5500,
+  "learning_rate": 0.001,
+  "hidden_dim": 128
+}

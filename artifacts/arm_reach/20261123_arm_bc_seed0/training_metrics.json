@@ -1,0 +1,11 @@
+{
+  "device": "cpu",
+  "clips": 6,
+  "transitions": 900,
+  "updates": 1200,
+  "action_rmse_rad": 0.003166140988469124,
+  "pytorch_training_cuda_allocated_mib": 0,
+  "gpu_peak_sample_mib": 509,
+  "gpu_samples": 4,
+  "wall_time_s": 0.9628978739999994
+}

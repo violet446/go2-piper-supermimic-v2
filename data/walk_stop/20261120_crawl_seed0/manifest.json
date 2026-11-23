@@ -1,0 +1,318 @@
+{
+  "source": "Local Go2+PiPER MuJoCo support-force/foot-IK teacher",
+  "provenance": "Generated locally from the vendored model. Model terms: vendor/go2_piper/LICENSE.",
+  "external_data_used": false,
+  "model_sha256": "4b8c49b89c72c1036249d64f3ca0ad5d441ccdc799449bf3c3c5305a2507d8f5",
+  "joint_names": [
+    "FL_hip_joint",
+    "FL_thigh_joint",
+    "FL_calf_joint",
+    "FR_hip_joint",
+    "FR_thigh_joint",
+    "FR_calf_joint",
+    "RL_hip_joint",
+    "RL_thigh_joint",
+    "RL_calf_joint",
+    "RR_hip_joint",
+    "RR_thigh_joint",
+    "RR_calf_joint",
+    "joint1",
+    "joint2",
+    "joint3",
+    "joint4",
+    "joint5",
+    "joint6"
+  ],
+  "action_joint_names": [
+    "FL_hip_joint",
+    "FL_thigh_joint",
+    "FL_calf_joint",
+    "FR_hip_joint",
+    "FR_thigh_joint",
+    "FR_calf_joint",
+    "RL_hip_joint",
+    "RL_thigh_joint",
+    "RL_calf_joint",
+    "RR_hip_joint",
+    "RR_thigh_joint",
+    "RR_calf_joint"
+  ],
+  "feet_order": [
+    "FL",
+    "FR",
+    "RL",
+    "RR"
+  ],
+  "physics_dt_s": 0.005,
+  "fps": 50,
+  "arm_target_rad": [
+    0.0,
+    0.25,
+    -0.15,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "action": "Absolute leg PD position target in radians, applied after the recorded observation for four substeps",
+  "label": "Unperturbed teacher target minus current leg q and KD/KP times current leg velocity",
+  "train": [
+    {
+      "name": "d200_00",
+      "distance": 0.2,
+      "start_x": 0.0,
+      "start_y": 0.0,
+      "yaw_deg": 0.0
+    },
+    {
+      "name": "d200_02",
+      "distance": 0.2,
+      "start_x": 0.0,
+      "start_y": 0.0,
+      "yaw_deg": 0.0
+    },
+    {
+      "name": "d200_04",
+      "distance": 0.2,
+      "start_x": 0.0,
+      "start_y": 0.0,
+      "yaw_deg": 0.0
+    },
+    {
+      "name": "d220_00",
+      "distance": 0.22,
+      "start_x": 0.0,
+      "start_y": 0.0,
+      "yaw_deg": 0.0
+    },
+    {
+      "name": "d220_03",
+      "distance": 0.22,
+      "start_x": 0.0,
+      "start_y": 0.0,
+      "yaw_deg": 0.0
+    },
+    {
+      "name": "d220_04",
+      "distance": 0.22,
+      "start_x": 0.0,
+      "start_y": 0.0,
+      "yaw_deg": 0.0
+    },
+    {
+      "name": "d240_00",
+      "distance": 0.24,
+      "start_x": 0.0,
+      "start_y": 0.0,
+      "yaw_deg": 0.0
+    },
+    {
+      "name": "d240_02",
+      "distance": 0.24,
+      "start_x": 0.0,
+      "start_y": 0.0,
+      "yaw_deg": 0.0
+    },
+    {
+      "name": "d240_03",
+      "distance": 0.24,
+      "start_x": 0.0,
+      "start_y": 0.0,
+      "yaw_deg": 0.0
+    },
+    {
+      "name": "d240_04",
+      "distance": 0.24,
+      "start_x": 0.0,
+      "start_y": 0.0,
+      "yaw_deg": 0.0
+    },
+    {
+      "name": "d260_00",
+      "distance": 0.26,
+      "start_x": 0.0,
+      "start_y": 0.0,
+      "yaw_deg": 0.0
+    },
+    {
+      "name": "d280_00",
+      "distance": 0.28,
+      "start_x": 0.0,
+      "start_y": 0.0,
+      "yaw_deg": 0.0
+    },
+    {
+      "name": "d280_02",
+      "distance": 0.28,
+      "start_x": 0.0,
+      "start_y": 0.0,
+      "yaw_deg": 0.0
+    },
+    {
+      "name": "d280_03",
+      "distance": 0.28,
+      "start_x": 0.0,
+      "start_y": 0.0,
+      "yaw_deg": 0.0
+    },
+    {
+      "name": "d280_05",
+      "distance": 0.28,
+      "start_x": 0.0,
+      "start_y": 0.0,
+      "yaw_deg": 0.0
+    },
+    {
+      "name": "d300_00",
+      "distance": 0.3,
+      "start_x": 0.0,
+      "start_y": 0.0,
+      "yaw_deg": 0.0
+    },
+    {
+      "name": "d300_02",
+      "distance": 0.3,
+      "start_x": 0.0,
+      "start_y": 0.0,
+      "yaw_deg": 0.0
+    },
+    {
+      "name": "d300_04",
+      "distance": 0.3,
+      "start_x": 0.0,
+      "start_y": 0.0,
+      "yaw_deg": 0.0
+    }
+  ],
+  "excluded_train": [
+    {
+      "name": "d200_01",
+      "distance": 0.2,
+      "start_x": 0.0,
+      "start_y": 0.0,
+      "yaw_deg": 0.0
+    },
+    {
+      "name": "d200_03",
+      "distance": 0.2,
+      "start_x": 0.0,
+      "start_y": 0.0,
+      "yaw_deg": 0.0
+    },
+    {
+      "name": "d200_05",
+      "distance": 0.2,
+      "start_x": 0.0,
+      "start_y": 0.0,
+      "yaw_deg": 0.0
+    },
+    {
+      "name": "d220_01",
+      "distance": 0.22,
+      "start_x": 0.0,
+      "start_y": 0.0,
+      "yaw_deg": 0.0
+    },
+    {
+      "name": "d220_02",
+      "distance": 0.22,
+      "start_x": 0.0,
+      "start_y": 0.0,
+      "yaw_deg": 0.0
+    },
+    {
+      "name": "d220_05",
+      "distance": 0.22,
+      "start_x": 0.0,
+      "start_y": 0.0,
+      "yaw_deg": 0.0
+    },
+    {
+      "name": "d240_01",
+      "distance": 0.24,
+      "start_x": 0.0,
+      "start_y": 0.0,
+      "yaw_deg": 0.0
+    },
+    {
+      "name": "d240_05",
+      "distance": 0.24,
+      "start_x": 0.0,
+      "start_y": 0.0,
+      "yaw_deg": 0.0
+    },
+    {
+      "name": "d260_01",
+      "distance": 0.26,
+      "start_x": 0.0,
+      "start_y": 0.0,
+      "yaw_deg": 0.0
+    },
+    {
+      "name": "d260_02",
+      "distance": 0.26,
+      "start_x": 0.0,
+      "start_y": 0.0,
+      "yaw_deg": 0.0
+    },
+    {
+      "name": "d260_03",
+      "distance": 0.26,
+      "start_x": 0.0,
+      "start_y": 0.0,
+      "yaw_deg": 0.0
+    },
+    {
+      "name": "d260_04",
+      "distance": 0.26,
+      "start_x": 0.0,
+      "start_y": 0.0,
+      "yaw_deg": 0.0
+    },
+    {
+      "name": "d260_05",
+      "distance": 0.26,
+      "start_x": 0.0,
+      "start_y": 0.0,
+      "yaw_deg": 0.0
+    },
+    {
+      "name": "d280_01",
+      "distance": 0.28,
+      "start_x": 0.0,
+      "start_y": 0.0,
+      "yaw_deg": 0.0
+    },
+    {
+      "name": "d280_04",
+      "distance": 0.28,
+      "start_x": 0.0,
+      "start_y": 0.0,
+      "yaw_deg": 0.0
+    },
+    {
+      "name": "d300_01",
+      "distance": 0.3,
+      "start_x": 0.0,
+      "start_y": 0.0,
+      "yaw_deg": 0.0
+    },
+    {
+      "name": "d300_03",
+      "distance": 0.3,
+      "start_x": 0.0,
+      "start_y": 0.0,
+      "yaw_deg": 0.0
+    },
+    {
+      "name": "d300_05",
+      "distance": 0.3,
+      "start_x": 0.0,
+      "start_y": 0.0,
+      "yaw_deg": 0.0
+    }
+  ],
+  "holdout": [
+    "offset_short",
+    "offset_long"
+  ]
+}

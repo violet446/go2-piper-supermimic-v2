@@ -1,0 +1,204 @@
+[
+  {
+    "clip": "solo8_walk",
+    "source_license": "BSD-3-Clause",
+    "motion_sha256": "f1317e33d35aa838cb6be1d5cccb049e5f33581324b67b728b1868017846512e",
+    "motion_shape": [
+      120,
+      61
+    ],
+    "metadata_frames": 571,
+    "control_hz": 60,
+    "motion_range_in_policy_config": [
+      49,
+      84
+    ],
+    "source_motion_start_to_end_m": [
+      1.563206434249878,
+      -0.0037917885929346085,
+      -0.09244352579116821
+    ],
+    "speed_from_position_first_0p5s_mean_mps": 0.7818465828895569,
+    "speed_from_position_last_0p5s_mean_mps": 0.8524577021598816,
+    "config_action_joint_names": [
+      "FR_hip_joint",
+      "FR_thigh_joint",
+      "FR_calf_joint",
+      "FL_hip_joint",
+      "FL_thigh_joint",
+      "FL_calf_joint",
+      "RR_hip_joint",
+      "RR_thigh_joint",
+      "RR_calf_joint",
+      "RL_hip_joint",
+      "RL_thigh_joint",
+      "RL_calf_joint"
+    ],
+    "action_scale": 0.25,
+    "action_latency_cfg_s": 0.02,
+    "control_decimation": 4,
+    "kp": {
+      "joint": 30.0
+    },
+    "kd": {
+      "joint": 1.5
+    },
+    "model_leg_joint_names": [
+      "FL_hip_joint",
+      "FL_thigh_joint",
+      "FL_calf_joint",
+      "FR_hip_joint",
+      "FR_thigh_joint",
+      "FR_calf_joint",
+      "RL_hip_joint",
+      "RL_thigh_joint",
+      "RL_calf_joint",
+      "RR_hip_joint",
+      "RR_thigh_joint",
+      "RR_calf_joint"
+    ],
+    "advertised_motion_columns": [
+      9,
+      10,
+      11,
+      6,
+      7,
+      8,
+      15,
+      16,
+      17,
+      12,
+      13,
+      14
+    ],
+    "advertised_fk_mean_error_m": 0.32271609541450097,
+    "verified_motion_columns": [
+      6,
+      10,
+      14,
+      7,
+      11,
+      15,
+      8,
+      12,
+      16,
+      9,
+      13,
+      17
+    ],
+    "verified_fk_mean_error_m": 5.3849595419277056e-08,
+    "physics_position_target_probe": {
+      "ticks": 100,
+      "expected_ticks": 100,
+      "fallen": false,
+      "body_ground": false,
+      "airborne_samples": 7,
+      "max_tilt_deg": 12.261875570992755,
+      "initial_floor_correction_m": 0.0,
+      "forward_travel_m": 0.6006762646226147,
+      "end_speed_mps": 0.5862872535320598,
+      "last_0p5s_max_speed_mps": 0.6061409298259366
+    }
+  },
+  {
+    "clip": "vhdc_horse1_s1_walk_01",
+    "source_license": "CC BY-SA 4.0",
+    "motion_sha256": "ce34f735b7c6e586eebaf935c9f117cff854f6e1b4d6bffc1fd7e229a1e4ffcc",
+    "motion_shape": [
+      600,
+      61
+    ],
+    "metadata_frames": 571,
+    "control_hz": 60,
+    "motion_range_in_policy_config": [
+      9,
+      599
+    ],
+    "source_motion_start_to_end_m": [
+      3.506908655166626,
+      0.013223018497228622,
+      0.03401970863342285
+    ],
+    "speed_from_position_first_0p5s_mean_mps": 0.3354988694190979,
+    "speed_from_position_last_0p5s_mean_mps": 0.3375384211540222,
+    "config_action_joint_names": [
+      "FR_hip_joint",
+      "FR_thigh_joint",
+      "FR_calf_joint",
+      "FL_hip_joint",
+      "FL_thigh_joint",
+      "FL_calf_joint",
+      "RR_hip_joint",
+      "RR_thigh_joint",
+      "RR_calf_joint",
+      "RL_hip_joint",
+      "RL_thigh_joint",
+      "RL_calf_joint"
+    ],
+    "action_scale": 0.25,
+    "action_latency_cfg_s": 0.02,
+    "control_decimation": 4,
+    "kp": {
+      "joint": 30.0
+    },
+    "kd": {
+      "joint": 1.5
+    },
+    "model_leg_joint_names": [
+      "FL_hip_joint",
+      "FL_thigh_joint",
+      "FL_calf_joint",
+      "FR_hip_joint",
+      "FR_thigh_joint",
+      "FR_calf_joint",
+      "RL_hip_joint",
+      "RL_thigh_joint",
+      "RL_calf_joint",
+      "RR_hip_joint",
+      "RR_thigh_joint",
+      "RR_calf_joint"
+    ],
+    "advertised_motion_columns": [
+      9,
+      10,
+      11,
+      6,
+      7,
+      8,
+      15,
+      16,
+      17,
+      12,
+      13,
+      14
+    ],
+    "advertised_fk_mean_error_m": 0.2920545611544841,
+    "verified_motion_columns": [
+      6,
+      10,
+      14,
+      7,
+      11,
+      15,
+      8,
+      12,
+      16,
+      9,
+      13,
+      17
+    ],
+    "verified_fk_mean_error_m": 7.66269653340115e-08,
+    "physics_position_target_probe": {
+      "ticks": 438,
+      "expected_ticks": 500,
+      "fallen": true,
+      "body_ground": true,
+      "airborne_samples": 0,
+      "max_tilt_deg": 12.337361717823192,
+      "initial_floor_correction_m": 0.023062791160908182,
+      "forward_travel_m": 0.8230911839231021,
+      "end_speed_mps": 0.2838443323695409,
+      "last_0p5s_max_speed_mps": 0.37411649174376005
+    }
+  }
+]

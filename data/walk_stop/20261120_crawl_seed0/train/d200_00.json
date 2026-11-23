@@ -1,0 +1,191 @@
+{
+  "scenario": "d200_00",
+  "distance_m": 0.2,
+  "start_xyz_m": [
+    -0.034681232639724786,
+    5.771732979014394e-06,
+    0.3038387048470593
+  ],
+  "goal_xy_m": [
+    0.16531876736027523,
+    5.771732979014394e-06
+  ],
+  "final_xy_m": [
+    0.16383233698475344,
+    0.0014847123418891136
+  ],
+  "ticks": 813,
+  "expected_ticks": 813,
+  "park_error_m": 0.002096840620065633,
+  "heading_error_deg": 0.013046578859899682,
+  "stop_speed_max_mps": 0.0015207178916427986,
+  "stop_speed_mean_mps": 0.0010873497171253479,
+  "final_speed_mps": 0.0008481564666037499,
+  "max_lateral_m": 0.04932610617352233,
+  "max_tilt_deg": 1.5815075328315051,
+  "min_base_height_m": 0.3018774251762959,
+  "max_stow_error_rad": 0.11334097243081033,
+  "contact_slip_p95_mps": 0.02228442103664487,
+  "non_foot_ground_samples": 0,
+  "airborne_samples": 0,
+  "min_support_feet": 3,
+  "four_feet_during_stop": true,
+  "min_peak_swing_clearance_m": 0.0488797641463633,
+  "max_landing_speed_mps": 0.21719394475030715,
+  "fell": false,
+  "phases": {
+    "ready": {
+      "progress_m": -0.0009552878831556935,
+      "avg_forward_speed_mps": -0.002388219707889234
+    },
+    "start": {
+      "progress_m": 0.01754354187422437,
+      "avg_forward_speed_mps": 0.004873206076173436
+    },
+    "walk_1": {
+      "progress_m": 0.06716052738381018,
+      "avg_forward_speed_mps": 0.018655702051058383
+    },
+    "walk_2": {
+      "progress_m": 0.07000000357616917,
+      "avg_forward_speed_mps": 0.01944444543782477
+    },
+    "brake": {
+      "progress_m": 0.03283839475133593,
+      "avg_forward_speed_mps": 0.009121776319815537
+    },
+    "settle": {
+      "progress_m": 0.011926389922094272,
+      "avg_forward_speed_mps": 0.008168760220612515
+    }
+  },
+  "swings": [
+    {
+      "stage": "start",
+      "leg_index": 0,
+      "peak_clearance_m": 0.04985170028785657,
+      "swing_airborne_samples": 21,
+      "peak_landing_speed_mps": 0.212342279912071
+    },
+    {
+      "stage": "start",
+      "leg_index": 1,
+      "peak_clearance_m": 0.04983737623470373,
+      "swing_airborne_samples": 21,
+      "peak_landing_speed_mps": 0.2079997775934932
+    },
+    {
+      "stage": "start",
+      "leg_index": 2,
+      "peak_clearance_m": 0.04918001143320175,
+      "swing_airborne_samples": 21,
+      "peak_landing_speed_mps": 0.2010496066598965
+    },
+    {
+      "stage": "start",
+      "leg_index": 3,
+      "peak_clearance_m": 0.049158340740601825,
+      "swing_airborne_samples": 21,
+      "peak_landing_speed_mps": 0.18194359949800368
+    },
+    {
+      "stage": "walk_1",
+      "leg_index": 0,
+      "peak_clearance_m": 0.04963591688927228,
+      "swing_airborne_samples": 20,
+      "peak_landing_speed_mps": 0.21719394475030715
+    },
+    {
+      "stage": "walk_1",
+      "leg_index": 1,
+      "peak_clearance_m": 0.04954696352724003,
+      "swing_airborne_samples": 20,
+      "peak_landing_speed_mps": 0.19743063028481186
+    },
+    {
+      "stage": "walk_1",
+      "leg_index": 2,
+      "peak_clearance_m": 0.04888596507723167,
+      "swing_airborne_samples": 21,
+      "peak_landing_speed_mps": 0.20232372026393303
+    },
+    {
+      "stage": "walk_1",
+      "leg_index": 3,
+      "peak_clearance_m": 0.04905533701134662,
+      "swing_airborne_samples": 21,
+      "peak_landing_speed_mps": 0.19175424049037643
+    },
+    {
+      "stage": "walk_2",
+      "leg_index": 0,
+      "peak_clearance_m": 0.04963889978942819,
+      "swing_airborne_samples": 20,
+      "peak_landing_speed_mps": 0.21689155219669626
+    },
+    {
+      "stage": "walk_2",
+      "leg_index": 1,
+      "peak_clearance_m": 0.0495454166775187,
+      "swing_airborne_samples": 20,
+      "peak_landing_speed_mps": 0.19743628664335824
+    },
+    {
+      "stage": "walk_2",
+      "leg_index": 2,
+      "peak_clearance_m": 0.0488797641463633,
+      "swing_airborne_samples": 21,
+      "peak_landing_speed_mps": 0.202138670895481
+    },
+    {
+      "stage": "walk_2",
+      "leg_index": 3,
+      "peak_clearance_m": 0.049055588769080366,
+      "swing_airborne_samples": 21,
+      "peak_landing_speed_mps": 0.19172845283580042
+    },
+    {
+      "stage": "brake",
+      "leg_index": 0,
+      "peak_clearance_m": 0.049767234341277555,
+      "swing_airborne_samples": 20,
+      "peak_landing_speed_mps": 0.21331135350481603
+    },
+    {
+      "stage": "brake",
+      "leg_index": 1,
+      "peak_clearance_m": 0.049718685129965856,
+      "swing_airborne_samples": 20,
+      "peak_landing_speed_mps": 0.20811849686798173
+    },
+    {
+      "stage": "brake",
+      "leg_index": 2,
+      "peak_clearance_m": 0.04903066509612419,
+      "swing_airborne_samples": 21,
+      "peak_landing_speed_mps": 0.18749493291095065
+    },
+    {
+      "stage": "brake",
+      "leg_index": 3,
+      "peak_clearance_m": 0.049119611997869544,
+      "swing_airborne_samples": 21,
+      "peak_landing_speed_mps": 0.18139918569428864
+    }
+  ],
+  "checks": {
+    "full_rollout": true,
+    "park_position": true,
+    "heading": true,
+    "stop_speed": true,
+    "support": true,
+    "stable": true,
+    "straight": true,
+    "stowed": true,
+    "slip": true,
+    "start_walk_brake": true,
+    "foot_lift": true
+  },
+  "completed": true,
+  "exact_physics_replay": true
+}

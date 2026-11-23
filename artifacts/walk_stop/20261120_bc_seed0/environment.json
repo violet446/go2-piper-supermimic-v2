@@ -1,0 +1,9 @@
+{
+  "system": "Linux-6.18.58.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "python": "3.12.3",
+  "torch": "2.14.1+cu130",
+  "mujoco": "3.16.0",
+  "numpy": "2.5.4",
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU"
+}
